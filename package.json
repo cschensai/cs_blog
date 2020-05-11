@@ -1,6 +1,8 @@
 {
-  "private": true,
+  "private": false,
   "name": "soldier-ui",
+  "version": "1.0.0",
+  "repository": "https://github.com/cschensai/soldier-ui.git",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
