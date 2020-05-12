@@ -27,6 +27,7 @@ $ npm run build
 ```
 
 ```
+// 需要10.13.0以上
 "gitHooks": {
     "pre-commit": "lint-staged"
   },
