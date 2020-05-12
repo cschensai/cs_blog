@@ -5,7 +5,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'soldier-ui';
+import Foo from './index.js';
 
 export default () => <Foo title="First Demo" />;
 ```
