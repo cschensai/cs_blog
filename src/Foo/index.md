@@ -3,11 +3,6 @@
 
 Demo:
 
-```jsx
-import React from 'react';
-import { Foo } from 'soldier-ui';
-
-export default () => <Foo title="First Demo" />;
-```
+<code src="./demo" />
 
 More skills for writing demo: https://d.umijs.org/guide/demo-principle
