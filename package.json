@@ -9,8 +9,8 @@
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
-    "build": "father-build",
     "deploy": "gh-pages -d dist",
+    "build": "father-build",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
@@ -32,7 +32,7 @@
   "dependencies": {
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.5",
-    "dumi": "^1.0.6",
+    "dumi": "^1.0.23",
     "father-build": "^1.17.2",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
