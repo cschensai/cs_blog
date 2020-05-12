@@ -3,7 +3,8 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   mode: 'doc', // 文档模式（默认值） site: 站点模式
   title: 'solider-ui',
-  description: '像战士一样坚毅的PC组件库',
+  description: '像士兵一样坚毅的PC组件库',
+  logo: 'https://img.51miz.com/Element/00/85/46/32/234a3332_E854632_321ed6a8.png',
   // more config: https://d.umijs.org/config
   base: '/soldier-ui/', // 访问路线/soldier-ui/为前缀
   publicPath: '/soldier-ui/', // 引入资源，以'/soldier-ui/‘开头，且必须以/结尾

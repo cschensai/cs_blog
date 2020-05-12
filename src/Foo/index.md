@@ -3,7 +3,7 @@
 
 Demo:
 
-```tsx
+```jsx
 import React from 'react';
 import { Foo } from 'soldier-ui';
 
