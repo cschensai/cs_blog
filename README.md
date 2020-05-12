@@ -1,6 +1,6 @@
-# dumi library
+# dumi 基于father、rollup和babel的组件打包脚手架
 
-## Getting Started
+## 开启服务
 
 Install dependencies,
 
@@ -8,27 +8,41 @@ Install dependencies,
 $ npm i
 ```
 
-Start the dev server,
+启动服务器
 
 ```bash
 $ npm start
 ```
 
-Build documentation,
+部署文档
 
 ```bash
 $ npm run docs:build
+
+$ npm run deploy
 ```
 
-Build library via `father-build`,
+构建应用包
 
 ```bash
 $ npm run build
+
+$ npm verison patch/minor/major
+
+$ npm publish
 ```
 
 ```
-// 需要10.13.0以上
+> 需要10.13.0以上,添加到package.json会进行校验,这里暂时去掉
 "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
+  "pre-commit": "lint-staged"
+},
+
+> 该ui库支持按需导入
+> .babelrc
+{
+  "plugins": [
+    ["import", { "libraryName": "soldier-ui", "style": true }]
+  ]
+}
 ```
