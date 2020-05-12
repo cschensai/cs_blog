@@ -5,7 +5,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import Button from './index.js';
+import { Button } from 'soldier-ui';
 
 export default () => <Button title="First Demo" />;
 ```

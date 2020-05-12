@@ -30,6 +30,7 @@
   "dependencies": {
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.5",
+    "antd": "^4.2.2",
     "dumi": "^1.0.23",
     "father-build": "^1.17.2",
     "lint-staged": "^10.0.7",
