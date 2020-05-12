@@ -6,4 +6,5 @@ export default defineConfig({
   // more config: https://d.umijs.org/config
   publicPath: '/soldier-ui/',
   base: '/soldier-ui/',
+  hash: true,
 });

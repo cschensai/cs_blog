@@ -1,6 +1,7 @@
 {
   "private": false,
   "name": "soldier-ui",
+  "author": "cschensai",
   "version": "1.0.2",
   "scripts": {
     "start": "dumi dev",
@@ -10,6 +11,13 @@
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cschensai/soldier-ui.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
