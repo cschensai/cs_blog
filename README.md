@@ -14,14 +14,6 @@ $ npm i
 $ npm start
 ```
 
-部署文档
-
-```bash
-$ npm run docs:build
-
-$ npm run deploy
-```
-
 构建应用包
 
 ```bash
@@ -31,6 +23,16 @@ $ npm verison patch/minor/major
 
 $ npm publish
 ```
+
+部署文档
+
+```bash
+$ npm run docs:build
+
+$ npm run deploy
+```
+
+
 
 ```
 > 需要10.13.0以上,添加到package.json会进行校验,这里暂时去掉
