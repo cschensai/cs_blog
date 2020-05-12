@@ -2,7 +2,7 @@
   "private": false,
   "name": "soldier-ui",
   "author": "cschensai",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
