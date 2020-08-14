@@ -10,7 +10,7 @@
 - 配置好之后，记得Proxy->macOS Proxy勾选上
 - 然后访问线上的地址，如果本地是请求的mock的数据，则会在线上看到
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/144308/1562319325660-882bd185-2058-4257-95f8-a258111a4b2f.png?x-oss-process=image%2Fresize%2Cw_746)
+![image.png](https://cs-static-assets.oss-cn-beijing.aliyuncs.com/dumi_blog/4.png)
 
 ### 在本地代理线上数据
 - 在Tools->mapRemote进行配置，上面是本地的接口地址，下面是线上的接口地址
@@ -19,11 +19,11 @@
 - 可以将本地的host设置为localhost.charlesproxy.com，来作为localhost的别名，这个别名使用大部分情况，也有可能服务端同学已经配好了本地localhost的域名，那就使用他们的那个即可
 - 然后访问本地localhost.charlesproxy.com:5000，则会拉取到线上的数据
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/144308/1562319596315-51fe5ea9-d4ae-44fb-9557-c1d299356dd5.png?x-oss-process=image%2Fresize%2Cw_746)
+![image.png](https://cs-static-assets.oss-cn-beijing.aliyuncs.com/dumi_blog/5.png)
 
 ### 代理线上静态资源，在本地进行调试
 ***<span style="background-color: yellow">case：在本地没有问题，在线上出现样式问题</span>***
 - 上面是线上的静态资源地址
 - 下面是本地的地址
 - 访问线上地址，即可在线上环境调试本地代码，和第一种配置方式一样，只不过这里的是静态资源的地址
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/144308/1562320715336-9be4e53b-63b1-4d1e-bf1f-b0151504bdb3.png?x-oss-process=image%2Fresize%2Cw_746)
+![image.png](https://cs-static-assets.oss-cn-beijing.aliyuncs.com/dumi_blog/6.png)

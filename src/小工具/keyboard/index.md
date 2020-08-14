@@ -1,0 +1,9 @@
+## 趣味键盘图
+```js
+// 用字符串返回一个键盘图形
+(_=>[..."`1234567890-=~~QWERTYUIOP[]\\~ASDFGHJKL;'~~ZXCVBNM,./~"].map(x=>(o+=`/${b='_'.repeat(w=x<y?2:' 667699'[x=["BS","TAB","CAPS","ENTER"][p++]||'SHIFT',p])}\\|`,m+=y+(x+'    ').slice(0,w)+y+y,n+=y+b+y+y,l+=' __'+b)[73]&&(k.push(l,m,n,o),l='',m=n=o=y),m=n=o=y='|',p=l=k=[])&&k.join`
+`)()
+```
+![image.png](https://cs-static-assets.oss-cn-beijing.aliyuncs.com/dumi_blog/1557041981110-274e08b4-6a3a-4716-a607-9439ad25c2fc.png)
+
+

@@ -16,7 +16,7 @@ npm  i webpack webpack-cli -D
 ### 组织项目结构
 > 在根项目下，新建index.html文件，并引入src下的index.js文件
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/144308/1561446977467-9651cc5c-22da-4ace-a7b0-1e0e7c4afaa0.png)
+![image.png](https://cs-static-assets.oss-cn-beijing.aliyuncs.com/dumi_blog/1.png)
 
 ### 在package.json文件中修改脚本如下
 ```js
@@ -32,7 +32,7 @@ npm  i webpack webpack-cli -D
 // 执行以下命令会出现dist文件，这里没设置入口和出口文件，是因为webpack的默认入口文件是src下的index.js，出口文件为dist目录下的main.js
 npm start
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/144308/1561447709446-529783c6-d4eb-48f6-940c-d839fcfaacb9.png)
+![image.png](https://cs-static-assets.oss-cn-beijing.aliyuncs.com/dumi_blog/2.png)
 
 ### 使用配置文件进行打包
 > 在根项目下新建webpack.config.js，设置入口和出口文件
@@ -80,4 +80,4 @@ module.exports = {
   }
 }
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/144308/1561449327692-343f000d-40a2-4825-9346-45a6b605d06c.png?x-oss-process=image%2Fresize%2Cw_746)
+![image.png](https://cs-static-assets.oss-cn-beijing.aliyuncs.com/dumi_blog/3.png)
