@@ -1,4 +1,4 @@
-## Socet.io和Socket.io-client开发
+## Socket.io和Socket.io-client开发
 ***关于实时聊天进行通信，这里选择使用服务端插件socket.io和客户端插件socket.io-client，分别在npm或者github中都可看到相关文档。下面是React+Koa的前后端方案示例***
 <hr/>
 
